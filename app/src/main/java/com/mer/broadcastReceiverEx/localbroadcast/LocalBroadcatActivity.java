@@ -1,4 +1,4 @@
-package com.mer.broadcastReceiverEx;
+package com.mer.broadcastReceiverEx.localbroadcast;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -7,13 +7,12 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
+import com.mer.broadcastReceiverEx.R;
+
 public class LocalBroadcatActivity extends Activity {
-
-
     LocalBroadcastManager manager;
     MyLocalBroadcaster localBroadcaster;
     String FILTER = "com.mer.broadcasttrigger";

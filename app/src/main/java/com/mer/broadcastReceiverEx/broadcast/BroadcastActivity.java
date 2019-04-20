@@ -1,4 +1,4 @@
-package com.mer.broadcastReceiverEx;
+package com.mer.broadcastReceiverEx.broadcast;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -9,7 +9,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class MainActivity extends Activity {
+import com.mer.broadcastReceiverEx.R;
+
+public class BroadcastActivity extends Activity {
 
     String FILTER = "com.mer.broadcasttrigger";
     MyBroadcastReceiver receiver = new MyBroadcastReceiver();
